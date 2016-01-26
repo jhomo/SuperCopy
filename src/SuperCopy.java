@@ -84,7 +84,7 @@ public class SuperCopy {
 				// automatically generate the help statement
 				log.error("inputsrc is required. Use -s option to set it.");
 				HelpFormatter formatter = new HelpFormatter();
-				formatter.printHelp("ImagesCopy", options);
+				formatter.printHelp("SuperCopy", options);
 				System.exit(-1);
 			} else {
 				inputSource = line.getOptionValue("inputsrc");
@@ -95,7 +95,7 @@ public class SuperCopy {
 				// automatically generate the help statement
 				log.error("inputTgtDir is required. Use -t option to set it.");
 				HelpFormatter formatter = new HelpFormatter();
-				formatter.printHelp("ImagesCopy", options);
+				formatter.printHelp("SuperCopy", options);
 				System.exit(-1);
 			} else {
 				inputTarget = line.getOptionValue("inputtgt");
@@ -106,7 +106,7 @@ public class SuperCopy {
 				// automatically generate the help statement
 				log.error("outputDir is required. Use -o option to set it.");
 				HelpFormatter formatter = new HelpFormatter();
-				formatter.printHelp("ImagesCopy", options);
+				formatter.printHelp("SuperCopy", options);
 				System.exit(-1);
 			} else {
 				output = line.getOptionValue("output");
@@ -115,7 +115,7 @@ public class SuperCopy {
 			// oops, something went wrong
 
 			HelpFormatter formatter = new HelpFormatter();
-			formatter.printHelp("ImagesCopy", options);
+			formatter.printHelp("SuperCopy", options);
 			System.exit(-1);
 		}
 		
