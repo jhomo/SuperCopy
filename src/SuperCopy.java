@@ -57,7 +57,7 @@ public class SuperCopy {
 			.create("t");
 
 	private static Option outputDirOpt = OptionBuilder.withArgName("outputDir")
-			.hasArg().withDescription("Input source directory")
+			.hasArg().withDescription("Output directory")
 			.withLongOpt("output").create("o");
 
 	public static void main(String[] args) {
